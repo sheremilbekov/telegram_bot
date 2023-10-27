@@ -22,7 +22,7 @@ COURSES = tele_button[1]
 BACK = courses[4]
 LOCATION = tele_button[2]
 
-
+#надо добавить этот коментарий
 def start(update:Update, context:CallbackContext):
     update.message.reply_text(
         f'Добро пожаловать {update.effective_user.username}\nэтот бот поможет вам с игформацией курсов. ',
